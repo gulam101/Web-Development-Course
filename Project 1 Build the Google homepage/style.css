@@ -49,9 +49,9 @@ b {
 }
 
 .button {
-  background-color: #EDE8E8;
+  background-color: #F1F1F1;
   border: none;
-  color: black;
+  color: #727171;
   padding: 15px 12px 15px 15px;
   text-align: center;
   text-decoration: none;
@@ -99,7 +99,9 @@ b {
   background-color: #DCEFFB;
   color: white;
   transition: ease-in-out 550ms;
+}
 
+.button:hover {
 
 }
 
