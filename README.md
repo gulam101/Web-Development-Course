@@ -1,5 +1,5 @@
 # Web-Development-Course
-Learning Front-end from The Odin Project course
+## Learning Front-end from The Odin Project course
 
 [Description](#Description)  
 <a name="Description"/>
