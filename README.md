@@ -1,6 +1,32 @@
 # Web-Development-Course
 Learning Front-end from The Odin Project course
 
+[Description](#Description)  
+<a name="Description"/>
+
+[What I learnt](#What_I_Learnt)  
+<a name="What_I_Learnt"/>
+
+[Constraints](#Constraints)  
+<a name="Constraints"/>
+
+[Improvements](#Improvements)  
+<a name="Improvements"/>
+
+[Development Changes](#Development_Changes)  
+<a name="Development_Changes"/>
+
+[Resources](#Resources)  
+<a name="Resources"/>
+
+[Screenshots](#Screenshots)
+<a name="Screenshots"/>
+
+[Credits](#Credits)  
+<a name="Credits"/>
+
+### Description:
+
 ### Project 1: Build Google Homepage
 ### Difficulty: Easy 
 ### Instructions 
