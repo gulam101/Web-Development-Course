@@ -4,7 +4,7 @@ Learning Front-end from The Odin Project course
 ### Project 1: Build Google Homepage
 ### Difficulty: Easy 
 ### Instructions 
-- Build the Google.com homepage (the simple one with just a search box).
+- Build the Google.com homepage (the simple one with just a search box)
 - Using CSS and JavaScript is optinal
 - | Bonus | Get the search engine to search for results using PhP
 
