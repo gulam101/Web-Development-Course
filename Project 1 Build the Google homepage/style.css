@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #f8f8ff;
 }
 
 /* Fonts */
@@ -12,16 +13,16 @@ h1 {
 /* Search Bar */
 .search-bar {
   text-align: center;
+  position: relative;
+  border: none;
 }
 
 .myInput {
-  background-image: url('images/search.png');
-  background-position: 10px 12px;
-  background-repeat: no-repeat;
-  border: 2px solid grey;
+  border: 1px solid black;
   border-radius: 110px;
   width: 50%;
   font-size: 17px;
+  padding-left: 5px;
 }
 
 .button {
@@ -43,4 +44,19 @@ h1 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.fa-search {
+  border: none;
+  background-color: #f8f8ff;
+}
 /* End of Search Bar */
+
+/* Search Bar Animation */
+.myInput:hover {
+  border-color: white;
+  background-color: #DCEFFB;
+  color: white;
+  transition: ease-in-out 550ms;
+}
+
+/* End of Search Bar Animation */
