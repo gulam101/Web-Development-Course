@@ -14,9 +14,10 @@ h1 {
   text-align: center;
 }
 
-input-type {
+.myInput {
   border: 2px solid grey;
-  border-radius: 130px;
+  border-radius: 110px;
+  width: 50%;
 }
 
 .button {
