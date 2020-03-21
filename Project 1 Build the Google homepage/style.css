@@ -5,6 +5,13 @@ body {
 /* Fonts */
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 65px;
 }
 /* End of Fonts */
+
+/* Search Bar */
+.search-bar {
+  text-align: center;
+}
+
+/* End of Search Bar */
