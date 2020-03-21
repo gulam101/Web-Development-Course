@@ -2,7 +2,6 @@
 Learning Front-end from The Odin Project course
 
 ### Project 1: Build Google Homepage
-# Assignment
 ### Difficulty: Easy 
 ### Instructions:
 Build the Google.com homepage (the simple one with just a search box).
