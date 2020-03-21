@@ -16,6 +16,10 @@ p {
 .google-font p {
   font-size: 32px;
 }
+
+b {
+  font-size: 42px;
+}
 /* End of Fonts */
 
 /* Search Bar */
