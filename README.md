@@ -11,9 +11,7 @@ Learning Front-end from The Odin Project course
 
 ### Tips:
 - DON’T BE A PERFECTIONIST! You’re just trying to make it look like google.com, not actually function like it and it doesn’t have to be spaced exactly the same way to the pixel.
-
 - Use Git to track your changes and upload the project onto GitHub.
-
 - Any dropdown menus or form submissions or hover-highlighting should be ignored.
 USE GOOGLE! You’ll probably run into roadblocks where you can’t figure out how to do something so do what all good devs do… Google it!
 If you’re frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the css property -webkit-appearance: none; or -moz-appearance if you’re using Firefox.
