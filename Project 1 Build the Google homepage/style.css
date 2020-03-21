@@ -103,7 +103,8 @@ b {
 }
 
 .button:hover {
-
+  box-shadow: 10px 10px 5px grey;
+  transition: ease-in-out 550ms;
 }
 
 /* End of Animation */
