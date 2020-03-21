@@ -8,6 +8,14 @@ h1 {
   text-align: center;
   font-size: 65px;
 }
+
+p {
+  font-size: 20px;
+}
+
+.google-font p {
+  font-size: 32px;
+}
 /* End of Fonts */
 
 /* Search Bar */
@@ -51,6 +59,25 @@ h1 {
 }
 /* End of Search Bar */
 
+/* Font Colours for Span */
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+/* End of Colour Fonts for Span */
+
 /* Search Bar Animation */
 .myInput:hover {
   border-color: white;
@@ -60,3 +87,10 @@ h1 {
 }
 
 /* End of Search Bar Animation */
+
+/* Google Icon */
+.google-font {
+  text-align: center;
+}
+
+/* End of Google Icon */
