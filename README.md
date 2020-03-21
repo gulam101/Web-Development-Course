@@ -32,6 +32,8 @@ Learning Front-end from The Odin Project course
 ### Instructions 
 - Build the Google.com homepage (the simple one with just a search box)
 - Using JavaScript is optinal
+- Try not to rely on developer tools
+- Try to do as much as you can
 - | Bonus | Get the search engine to search for results using PhP
 - Difficult Version (optional): Build the Google.com search results page
 
