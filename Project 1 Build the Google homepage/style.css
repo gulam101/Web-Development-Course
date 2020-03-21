@@ -93,15 +93,17 @@ b {
 
 /* End of Colour Fonts for Span */
 
-/* Search Bar Animation */
+/* Animation */
 .myInput:hover {
   border-color: white;
   background-color: #DCEFFB;
   color: white;
   transition: ease-in-out 550ms;
+
+
 }
 
-/* End of Search Bar Animation */
+/* End of Animation */
 
 /* Google Icon */
 .google-font {
