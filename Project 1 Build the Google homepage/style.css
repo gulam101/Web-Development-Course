@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -38,6 +38,11 @@ footer p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+li p {
+  font-size: 11px;
+}
+
 /* End of Fonts */
 
 /* Top-navbar */
@@ -80,6 +85,9 @@ footer {
   border: none;
 }
 
+hr {
+  color: #EEEBEB;
+}
 /* End of Bottom NavBar */
 
 /* Search Bar */
@@ -145,16 +153,13 @@ footer {
 /* End of Colour Fonts for Span */
 
 /* Animation */
-.myInput:hover {
-  border-color: white;
-  background-color: #DCEFFB;
-  color: white;
-  transition: ease-in-out 550ms;
-}
-
 .button:hover {
   box-shadow: 10px 10px 5px grey;
   transition: ease-in-out 550ms;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 /* End of Animation */
