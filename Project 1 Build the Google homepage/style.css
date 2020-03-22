@@ -75,14 +75,18 @@ footer {
   width: 100%;
 }
 
-.right-align {
-
+.right-align-text {
+  list-style-type: none;
+  text-align: right;
+  border: none;
+  background-color: #DDDDDD;
 }
 
 .left-align-text {
+  list-style: none;
   text-align: left;
-  display: inline-block;
   border: none;
+  background-color: #DDDDDD;
 }
 
 hr {
