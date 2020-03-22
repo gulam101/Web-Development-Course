@@ -156,8 +156,8 @@ hr {
 
 /* Animation */
 .button:hover {
-  box-shadow: 10px 10px 5px grey;
-  transition: ease-in-out 550ms;
+  color: black;
+  box-shadow: 0 1px 1px #D6D6D6;
 }
 
 li a:hover {
