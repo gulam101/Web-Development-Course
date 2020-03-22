@@ -142,6 +142,11 @@ hr {
   border: none;
   background-color: #f8f8ff;
 }
+
+.search-icon {
+  color: gray;
+  outline: 0;
+}
 /* End of Search Bar */
 
 /* Font Colours for Span */
