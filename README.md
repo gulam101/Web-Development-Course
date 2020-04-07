@@ -4,6 +4,9 @@
 [Description](#Description)  
 <a name="Description"/>
 
+[Course Content](#Course_Content)  
+<a name="Course_Content"/>
+
 [What I learnt](#What_I_Learnt)  
 <a name="What_I_Learnt"/>
 
@@ -26,6 +29,20 @@
 <a name="Credits"/>
 
 ### Description:
+
+### Course Content:
+- Introudction to Front End
+- HTML Foundation
+- Understanding of Semantic HTML
+- Introduction to CSS
+- HTML and CSS Workshop: From a PSD to HTML/CSS!
+- JavaScript Quickstart
+- The Browser environment: the DOM
+- jQuery quickstart
+- Advanced JavaScript: Backbone.js
+- BackboneJS Workshop: Foogle play store
+- Responsive Web Development
+- Testing Code
 
 ### Project 1: Build Google Homepage
 ### Difficulty: Easy 
