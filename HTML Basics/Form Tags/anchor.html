@@ -6,26 +6,26 @@
   </head>
   <body>
         <!-- used to collect user input -->
-        <form>
+        <form method="POST">
           <!-- fieldset groups elements together  -->
           <fieldset>
             <!-- there are different types of input and it can depend on what is needed -->
             <!-- label allows us to label different areas -->
-            <label>Firstname: </label>  <input type="text" name="" value="">
+            <label>Firstname: </label>  <input type="text" name="firstname" value="">
             <!-- break allows us to make a space between content -->
             <br>
-            <label>Lastname:  </label> <input type="text" name="" value="">
+            <label>Lastname:  </label> <input type="text" name="lastname" value="">
             <br>
 
             <label>Gender: </label>
             <!-- name allows us to group things under the same category -->
-            <input type="radio" name="gender">Male
-            <input type="radio" name="gender">Female
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
             <br>
 
             <label>Country of Origin</label>
             <!-- select creates a field that allows us to define any sort of input -->
-            <select>
+            <select name="country">
               <!-- option gives us different options -->
               <option>France</option>
               <option>Italy</option>
@@ -36,7 +36,7 @@
 
             <label>Notes:</label>
             <!-- creates a text area which we can define with css or html -->
-            <textarea name="name" rows="8" cols="80">
+            <textarea name="notes" rows="8" cols="80">
             </textarea>
 
             <br>
@@ -45,7 +45,7 @@
             <input type="submit" value="Register">
 
             <!-- with this button, we can add more than just string -->
-            <button type="submit" name="button">123 or image</button>
+            <!-- <button type="submit" name="button">123 or image</button> -->
 
           </fieldset>
         </form>
