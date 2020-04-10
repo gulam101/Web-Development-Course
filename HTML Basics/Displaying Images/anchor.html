@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+  </head>
+  <body>
+        <!-- used to collect user input -->
+        <form method="POST">
+          <!-- fieldset groups elements together  -->
+          <fieldset>
+            <!-- there are different types of input and it can depend on what is needed -->
+            <!-- label allows us to label different areas -->
+            <label>Firstname: </label>  <input type="text" name="firstname" value="">
+            <!-- break allows us to make a space between content -->
+            <br>
+            <label>Lastname:  </label> <input type="text" name="lastname" value="">
+            <br>
+
+            <label>Gender: </label>
+            <!-- name allows us to group things under the same category -->
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+
+            <label>Country of Origin</label>
+            <!-- select creates a field that allows us to define any sort of input -->
+            <select name="country">
+              <!-- option gives us different options -->
+              <option>France</option>
+              <option>Italy</option>
+              <option>Germany</option>
+            </select>
+
+            <br>
+
+            <label>Notes:</label>
+            <!-- creates a text area which we can define with css or html -->
+            <textarea name="notes" rows="8" cols="80">
+            </textarea>
+
+            <br>
+            <br>
+            <!-- we created a button which was called register -->
+            <input type="submit" value="Register">
+
+            <!-- with this button, we can add more than just string -->
+            <!-- <button type="submit" name="button">123 or image</button> -->
+
+          </fieldset>
+        </form>
+
+        <h2>List Items</h2>
+
+        <!-- the ol tag crates an orderd list -->
+        <ol>
+          <!-- li means a list -->
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+
+        <!-- view the browser to see the difference -->
+
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+
+
+        <!-- description list -->
+        <dl>
+          <!-- description title -->
+          <dt>Home Number</dt>
+          <!-- description data -->
+          <dd>020 000 000</dd>
+
+          <dt>Home Address</dt>
+          <dd>11 Earth Street</dd>
+        </dl>
+
+  </body>
+</html>
