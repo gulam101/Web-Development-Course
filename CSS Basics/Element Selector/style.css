@@ -1,0 +1,16 @@
+/* chnages the background color */
+#homepage-header {
+  background-color: yellow;
+}
+
+/* changes the font colour to grey */
+.grayed {
+  color: grey;
+}
+
+/* targeting element without class */
+
+footer {
+  background-color: red;
+  color: white;
+}
