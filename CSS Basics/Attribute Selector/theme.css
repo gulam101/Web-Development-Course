@@ -1,3 +1,37 @@
-h1 {
+/* targets the child selector */
+/* section > h1 {
+  color: red;
+} */
+
+.latest > h1 {
   color: red;
 }
+
+/* compound selector */
+/* section.latest > h1 {
+  color: red;
+} */
+/* ^ selectors an element using an element selector with a specific class name */
+
+/* you can also chain a compound selector */
+section.latest.articles > h1 {
+  color: red;
+}
+/* this chained compound element is an element using an element selector to select another element with
+a specific class name */
+
+/* targets all the achors within the article */
+article a {
+  color: green;
+}
+
+/* selects using the class */
+/* article a.rating {
+  color: pink;
+} */
+
+/* another way is that we can find it using the sybilling selector */
+article p + a {
+  color: yellow;
+}
+/* the plus sign means it creates a sybiling relationship between the two tags */
