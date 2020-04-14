@@ -1,5 +1,5 @@
 # Web-Development-Course
-## Learning Front-end from The Odin Project course
+## Foundations of Front-End Web Development - Udemy Course
 
 [Description](#Description)  
 <a name="Description"/>
