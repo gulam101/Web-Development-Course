@@ -1,0 +1,16 @@
+p {
+  padding: 10px;
+  /* border: 1px solid red; */
+  border-color: red;
+  border-style: dashed;
+  border-width: 2px;
+  /* top right bottom left */
+  /* margin: 10px 10px 10px 10px; */
+
+
+  /* another way of using a margin */
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+/* applies the rule to the entire body */
+body {
+  /* starts from the most important to the least important */
+  font-family: "Times New Roman", Georgia, Ariel, sans-serif;
+  /* fonts with spaces in them need to be wrapped in "" or else it
+     will look for different fonts within the space */
+     font-size: 16px;
+}
+
+h1 {
+  /* 1 em multiples the current font by 16px */
+    font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* create a compound rule that targets more than one element  */
+h1,h2,h3,h4,h5 {
+  color: red;
+  font-weight: 700;
+  line-height: 1.2px;
+}
+
+em {
+  font-style: italic;
+}
