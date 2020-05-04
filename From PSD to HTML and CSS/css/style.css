@@ -8,11 +8,15 @@ html, body {
   color: #474747;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6, .title {
    font-family: "Economica", sans-serif;
    text-transform: uppercase;
    font-weight: bold;
    margin: 0 0 1em;
+}
+
+strong {
+  padding-bottom: 15px;
 }
 
 h2 {
@@ -21,6 +25,11 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
+}
+
+p {
+  margin: 1.5em 0;
+  line-height: 1.5;
 }
 
 a {
@@ -48,6 +57,10 @@ a:hover, a:visited, a:active {
 
 .clearfix:after {
   clear: both;
+}
+
+.data-block {
+  margin-bottom: 48px;
 }
 
 /* Header */
@@ -120,3 +133,75 @@ a:hover, a:visited, a:active {
   padding: 1em 0;
 }
 /* End of Footer  */
+
+/* main visual */
+
+.main-visual {
+
+}
+
+.main-visual img {
+  display: block;
+}
+
+.main-visual figcaption {
+  background-color: #f6f6f6;
+  padding: 0.5em 1em;
+}
+
+.main-visual figcaption > strong {
+  font-size: 1.4em;
+}
+
+/* Claims */
+.claim {
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.claim:last-child {
+  margin-right: 0px;
+}
+
+.claim h2 {
+  font-size: 30px;
+}
+
+.claim header > i {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9a9a9a;
+  float: left;
+  width: 25%;
+}
+
+/* test */
+.claim i:hover {
+  background-color: black;
+  color: red;
+}
+
+.claim header > h2 {
+  float: left;
+  width: 75%;
+}
+
+/* font awesome icons  */
+.fa-search:before {
+  content: "\f002"; }
+
+.fa-search-dollar:before {
+  content: "\f688"; }
+
+.fa-search-location:before {
+  content: "\f689"; }
+
+.fa-search-minus:before {
+  content: "\f010"; }
+
+.fa-search-plus:before {
+  content: "\f00e"; }
+
+.fa-searchengin:before {
+  content: "\f3eb"; }
