@@ -1,0 +1,52 @@
+.container-1 {
+  display: flex;
+  /* in the container you can move a the box at start, middle and end of the container */
+
+  /* align-items: flex-end;
+  align-items: flex-start;
+  align-items: center; */
+
+  /* although by default it is stretched */
+
+  /* puts it back to being a column */
+  /* flex-direction: column; */
+}
+
+.container-1 > div, .container-2 > div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.container-2 {
+  display: flex;
+  /* pushes all the content at the start of the container */
+  /* justify-content: flex-start; */
+
+  /* pushes all the content at the end of the container */
+  justify-content: flex-end;
+
+}
+
+
+
+/* makes the boxes even spacing */
+.box-1 {
+  /* changing the size can lead to different sizes for the box */
+  flex: 2;
+  order: 2;
+}
+
+.box-2 {
+  flex: 1;
+  /* you can use order to change the box orders without changing html code */
+  order 1;
+}
+
+.box-3 {
+  flex: 1;
+  order: 3;
+}
+
+.container-2-box {
+  width: 20%;
+}
